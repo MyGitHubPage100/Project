@@ -1,0 +1,1 @@
+Read the PhotoManager.txt :)
