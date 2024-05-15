@@ -20,42 +20,42 @@ Design a program in Java programming language and in desktop IntelliJ environmen
 *The Program will accept only 6 profiles in total
 *Dont forget to improve the GUI a little bit
 
-1) Profile Form  User can select or create new profile   ****Rename it to "SelectionScreenProfile.Form"****
+1) Profile Form -> User can select or create new profile   ****Rename it to "SelectionScreenProfile.Form"****
 
 Button1 to Button6  Select an existing profile or create a new one
-Button7  Background Changer
-Button8  Deletes your Profile
-Field View1  Show Time Clock
-Field View2  Show Current Date
+Button7 -> Background Changer
+Button8 -> Deletes your Profile
+Field View1 -> Show Time Clock
+Field View2 -> Show Current Date
 
 
-2) UserData Form  The user assigns the filters he wishes and has the ability to see/assign the personal information he has entered
+2) UserData Form -> The user assigns the filters he wishes and has the ability to see/assign the personal information he has entered
 ***This Form opens when you create your profile
 
-Label1 to label5  The user's personal information is displayed
-Label6 to Label9  User defined filters are displayed
+Label1 to label5 -> The user's personal information is displayed
+Label6 to Label9 -> User defined filters are displayed
 
 
-3) Profile1_Gadget Form  Pre-existing form where the user is a customer and searches for electronic items in existing photos through filters
+3) Profile1_Gadget Form -> Pre-existing form where the user is a customer and searches for electronic items in existing photos through filters
 
-Label1  Word "Filters" 
-Label2 to Label5  User defined filters will be inserted here
-Label6  The image selected by the user is displayed at this Label
+Label1 -> Word "Filters" 
+Label2 to Label5 -> User defined filters will be inserted here
+Label6 -> The image selected by the user is displayed at this Label
 In the "New Form" the user has the possibility of the following actions:
 
-Button1 (Profile Data)  sees/assigns his personal data to his profile
-Button2 (Upload Button)  uploads a new photo
-Button3 (Edit Image) edits one of the selected images
-Button4 (View image description)  sees the description of his image
-Button5 (Next Image)  goes to the next image
-Button6 (DELETE YOUR PROFILE)  User's profile will be deleted
+Button1 (Profile Data) -> sees/assigns his personal data to his profile
+Button2 (Upload Button) -> uploads a new photo
+Button3 (Edit Image) -> edits one of the selected images
+Button4 (View image description) -> sees the description of his image
+Button5 (Next Image) -> goes to the next image
+Button6 (DELETE YOUR PROFILE) -> User's profile will be deleted
 
-4) Profile2 form  User creates a new profile
+4) Profile2 form -> User creates a new profile
 The Buttons are the same as those of the 'Profile1_Gadget Form' but the filters and meta-data arent inserted. The User will insert his own
 
 
-5) Image Editor Form  The user assigns the meta-data of the desired photo
-Label1 to Label4  Words “Filter1” to “Filter4”
-Label5 Words “Apply Changes”
-Button1 (Save)  Saves the changes made by the user
-Button2 (Exit)  Exit form
+5) Image Editor Form -> The user assigns the meta-data of the desired photo
+Label1 to Label4 -> Words “Filter1” to “Filter4”
+Label5 -> Words “Apply Changes”
+Button1 (Save) -> Saves the changes made by the user
+Button2 (Exit) -> Exit form
