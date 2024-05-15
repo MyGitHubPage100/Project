@@ -1,0 +1,61 @@
+"Coding Part of the exercise" Photo Manager
+
+<<Goals of the project>>
+Design a program in Java programming language and in desktop IntelliJ environment that will perform the following:
+* The User will be able to select an existing profile or create his own new profile
+* The program will allow the users to create groups of management data about his photos so that Photo Manager becomes a personalized tool (each user will have his owm 'database' for saving photos and will be able to create groups in order to categorize his pictures)
+* It will allow the user to design search filters to locate and view photos related to meta-data,filters that he inserted 
+* It will allow the user to make mass/individual entry of meta-data on selected photos
+* It will allow the user to browse photos (a 'default' pic will be displayed before the user inserts any data on the filters and he will be able to browse all the photos. Also, when the user's inserted data on filters doesnt match with any picture's meta-data then a 'no result found' pic will be displayed on the display area)
+
+**NOTES
+**The text inside the () is my comments
+**There will be 6 databases, one for each user
+**Each database should be a xml or Json file
+**No extra libraries which are outdated and not provided by IntelliJ
+**No FxJava libraries
+
+************** Below are my instructions for the buttons
+
+*The Program will accept only 6 profiles in total
+*Dont forget to improve the GUI a little bit
+
+1) Profile Form  User can select or create new profile   ****Rename it to "SelectionScreenProfile.Form"****
+
+Button1 to Button6  Select an existing profile or create a new one
+Button7  Background Changer
+Button8  Deletes your Profile
+Field View1  Show Time Clock
+Field View2  Show Current Date
+
+
+2) UserData Form  The user assigns the filters he wishes and has the ability to see/assign the personal information he has entered
+***This Form opens when you create your profile
+
+Label1 to label5  The user's personal information is displayed
+Label6 to Label9  User defined filters are displayed
+
+
+3) Profile1_Gadget Form  Pre-existing form where the user is a customer and searches for electronic items in existing photos through filters
+
+Label1  Word "Filters" 
+Label2 to Label5  User defined filters will be inserted here
+Label6  The image selected by the user is displayed at this Label
+In the "New Form" the user has the possibility of the following actions:
+
+Button1 (Profile Data)  sees/assigns his personal data to his profile
+Button2 (Upload Button)  uploads a new photo
+Button3 (Edit Image) edits one of the selected images
+Button4 (View image description)  sees the description of his image
+Button5 (Next Image)  goes to the next image
+Button6 (DELETE YOUR PROFILE)  User's profile will be deleted
+
+4) Profile2 form  User creates a new profile
+The Buttons are the same as those of the 'Profile1_Gadget Form' but the filters and meta-data arent inserted. The User will insert his own
+
+
+5) Image Editor Form  The user assigns the meta-data of the desired photo
+Label1 to Label4  Words “Filter1” to “Filter4”
+Label5 Words “Apply Changes”
+Button1 (Save)  Saves the changes made by the user
+Button2 (Exit)  Exit form
