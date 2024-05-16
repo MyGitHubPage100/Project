@@ -61,5 +61,4 @@ Button1 (Save) -> Saves the changes made by the user
 Button2 (Exit) -> Exit form
 
 6) Add extra new forms where it is needed
-
-
+You can alter these forms as you want
