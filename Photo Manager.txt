@@ -22,7 +22,7 @@ Design a program in Java programming language and in desktop IntelliJ environmen
 
 1) Profile Form -> User can select or create new profile   ****Rename it to "SelectionScreenProfile.Form"****
 
-Button1 to Button6  Select an existing profile or create a new one
+Button1 to Button6 -> Select an existing profile or create a new one
 Button7 -> Background Changer
 Button8 -> Deletes your Profile
 Field View1 -> Show Time Clock
