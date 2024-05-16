@@ -7,11 +7,4 @@
     <Filter3>Filter 3 for photo 1</Filter3>
     <Filter4>Filter 4 for photo 1</Filter4>
   </Photo>
-  <Photo>
-    <Path>photos/photo2.jpg</Path>
-    <Filter1>Filter 1 for photo 2</Filter1>
-    <Filter2>Filter 2 for photo 2</Filter2>
-    <Filter3>Filter 3 for photo 2</Filter3>
-    <Filter4>Filter 4 for photo 2</Filter4>
-  </Photo>
 </Photos>
