@@ -59,3 +59,7 @@ Label1 to Label4 -> Words “Filter1” to “Filter4”
 Label5 -> Words “Apply Changes”
 Button1 (Save) -> Saves the changes made by the user
 Button2 (Exit) -> Exit form
+
+6) Add extra forms where it is needed
+
+
