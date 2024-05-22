@@ -44,12 +44,13 @@ Label1 -> Word "Filters"
 Label2 to Label11 -> User defined search-filters(meta-data) will be inserted here
 Label12-Label21 -> The general categories of the meta-data. (Price,Release Date, etc) *these are just words* dont change 
 
-In the "Profile.Form" the user has the ability of the following actions:
+In the "Profile1_Gadget.Form" the user has the ability of the following actions:
 Button1 (UserData) -> *UserData.Form opens*
 Button2 (Upload Button) -> uploads a new photo (when the user inserts a new photo, the program will ask him to insert the meta-data of the new photo **he can also insert many photos at the same time but the program will not ask for the meta-data)
 Button3 (DELETE YOUR PROFILE) -> his profile will be deleted (The User should insert the Words 'DELETE' in order to confirm his choice)
 Button4 (Manage your Photos) -> *The DatabaseManagment.Form opens*
 button5 (Search) -> *PhotoDisplay.Form opens*
+Button6 (Sign out) -> *this form closes* *Profile.Form opens*
 
 4) PhotoDisplay.Form -> The photos will be displayed here
 Label1 to Label8 -> Photos related to user's inserted meta-data will appear in these labels
