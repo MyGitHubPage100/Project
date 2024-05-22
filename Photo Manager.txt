@@ -49,8 +49,9 @@ In the "Profile1_Gadget.Form" the user has the ability of the following actions:
 Button1 (UserData) -> *UserData.Form opens*
 Button2 (Upload Button) -> uploads a new photo (when the user inserts a new photo, the program will ask him to insert the meta-data of the new photo **he can also insert many photos at the same time but the program will not ask for the meta-data)
 Button3 (DELETE YOUR PROFILE) -> his profile will be deleted (The User should insert the Words 'DELETE' in order to confirm his choice)
-Button4 (Search) -> *DatabaseManagment.From opens*
-Button5 (Sign out) -> *this form closes* *Profile.Form opens*
+Button4 (Search) -> *DatabaseManagment.From opens* (Displays only photos which match with the meta-data inserted by the user) 
+Button5 (Browse all Photos) -> *DatabaseManagment.From opens* (all photos will be displayed)
+Button6 (Sign out) -> *this form closes* *Profile.Form opens*
 
 4) Profile2.Form -> User creates a new profile
 The Buttons are the same as those of the 'Profile1_Gadget Form' but the filters and meta-data arent inserted. The User will insert his own meta-data
@@ -61,5 +62,6 @@ Label1 to Label8 -> The Photos will be displayed here
 Button2 (Scrap Photo) -> Deletes the selected photo or Photos
 Button3 (Edit Photo Details) -> The user can edit the meta-data of the selected image
 Button4 (Close) -> Exit Form
+
 ****Add extra new forms where it is needed
 You can alter these forms as you want
