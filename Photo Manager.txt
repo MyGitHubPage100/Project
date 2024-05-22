@@ -36,10 +36,10 @@ Field View1 -> Show Time Clock
 Field View2 -> Show Current Date
 
 
-2) UserData Form -> The user assigns the filters he wishes and has the ability to see/assign his personal 
+2) UserData Form -> The user assigns the filters he wishes and has the ability to see/assign his personal identifying information
 ***This Form opens when you create your profile
 
-Label1 to label5 -> The user's personal information is displayed
+Label1 to label5 -> The user's personal identifying information are displayed
 Label6 to Label9 -> User defined filters are displayed
 
 
