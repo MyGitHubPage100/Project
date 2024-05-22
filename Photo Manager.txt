@@ -37,21 +37,22 @@ Button7 (Background Swap)-> Background Changer
 Field View1 -> Show Time Clock
 Field View2 -> Show Current Date
 
-2) UserData.Form -> The user assigns the category of the filters he wishes and he has the ability to see/assign his personal identifying information
-***This Form opens when you create your profile
+2) UserData.Form -> The user has the ability to see/assign his personal identifying information
+**This Form opens when you create your profile
 
 Label1 to label5 -> The user's personal identifying information are displayed
-Label6 to Label9 -> User defined filters are displayed
 
 3) Profile1_Gadget.Form -> Pre-existing form where the user is a customer and searches for electronic items in existing photos through filters
 Label1 -> Word "Filters" 
-Label2 to Label5 -> User defined search-filters will be inserted here
+Label2 to Label10 -> User defined search-filters(meta-data) will be inserted here
+Label11-Label20 -> The general categories of the meta-data. *these are just words* dont change 
 
 In the "Profile.Form" the user has the ability of the following actions:
-Button1 (UserData) -> sees/assigns his personal data to his profile *UserData.Form opens*
+Button1 (UserData) -> *UserData.Form opens*
 Button2 (Upload Button) -> uploads a new photo (when the user inserts a new photo, the program will ask him to insert the meta-data of the photo)
-Button5 (DELETE YOUR PROFILE) -> his profile will be deleted (The User should insert the Words 'DELETE' in order to confirm his choice)
-Button6 (Manage your Photos) -> *The DatabaseManagement.Form opens*
+Button3 (DELETE YOUR PROFILE) -> his profile will be deleted (The User should insert the Words 'DELETE' in order to confirm his choice)
+Button4 (Manage your Photos) -> *The DatabaseManagment.Form opens*
+button5 (Search) -> *PhotoDisplay.Form opens*
 
 4) PhotoDisplay.Form -> The photos will be displayed here
 Label1 to Label8 -> Photos selected by the user appear in these labels
@@ -63,8 +64,8 @@ The Buttons are the same as those of the 'Profile1_Gadget Form' but the filters 
 6) DatabaseManagment.From -> The user will be able to manage the photos which he has saved (delete photos, mass/individual ability to select photos, browse his photos)
 Button1 (show more) -> The next 8 photos will be displayed
 Label1 to Label8 -> The Photos will be displayed here
-Button3 (Edit Image) -> edits the meta-data of the selected image
-Button4 (View image details) -> sees the meta-data of this image
+Button3 (Edit Photo Details) -> The user can edit the meta-data of the selected image
+Button4 (View image details) -> The user will be able to view the meta-data of this image without changing it
 
 ****Add extra new forms where it is needed
 You can alter these forms as you want
