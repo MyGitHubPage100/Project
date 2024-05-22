@@ -12,7 +12,7 @@ Design a program in Java programming language and in desktop IntelliJ environmen
 **The text inside the () is my comments
 **There will be 6 databases, one for each user
 **Each database must be a xml or Json file
-**Each database will contain only the path's of the photos and the meta-data of the photos
+**Each database will contain only the paths of the photos and the meta-data of the photos
 **The Program will accept only 6 profiles in total
 
 *Try to limit the use of libraries that need to be downloaded and inserted manually 
@@ -30,35 +30,31 @@ pictures with these meta-data will be displayed
 1) Profile.Form -> User can select or create new profile   ****Rename it to "SelectionScreenProfile.Form"****
 
 Button1 to Button6 -> Select an existing profile or create a new one
-Button7 -> Background Changer
-Button8 -> Deletes your Profile
+Button7 (Background Swap)-> Background Changer
+*idea* a button under every profile which it will delete your profile -> Resets your Profile
 Field View1 -> Show Time Clock
 Field View2 -> Show Current Date
 
-
-2) UserData.Form -> The user assigns the filters he wishes and has the ability to see/assign his personal identifying information
+2) UserData.Form -> The user assigns the category of the filters he wishes and he has the ability to see/assign his personal identifying information
 ***This Form opens when you create your profile
 
 Label1 to label5 -> The user's personal identifying information are displayed
 Label6 to Label9 -> User defined filters are displayed
-
 
 3) Profile1_Gadget.Form -> Pre-existing form where the user is a customer and searches for electronic items in existing photos through filters
 
 Label1 -> Word "Filters" 
 Label2 to Label5 -> User defined search-filters will be inserted here
 
-
 In the "Profile.Form" the user has the ability of the following actions:
 Button1 (UserData Data) -> sees/assigns his personal data to his profile
 Button2 (Upload Button) -> uploads a new photo (when the user inserts a new photo, the program will ask him to insert the meta-data of the photo)
-Button3 (Edit Image) -> edits one of the selected images
-Button4 (View image details) -> sees the meta-data of his image
 Button5 (DELETE YOUR PROFILE) -> his profile will be deleted (The User should insert the Words 'DELETE' in order to confirm his choice)
 Button6 (Manage your Photos) -> The DatabaseManagement.Form opens
 
 4) PhotoDisplay.Form -> The photos will be displayed here
 Label1 to Label8 -> Photos selected by the user appear in these labels
+Button1 (show more) -> The next 8 photos will be displayed
 
 5) Profile2.Form -> User creates a new profile
 The Buttons are the same as those of the 'Profile1_Gadget Form' but the filters and meta-data arent inserted. The User will insert his own
@@ -69,8 +65,11 @@ Label5 -> Words “Apply Changes”
 Button1 (Save) -> Saves the changes made by the user
 Button2 (Exit) -> Exit form
 
-
-7) DatabaseManagment.From -> The user will be able to manage his Database (delete photos, mass/individual ability to select photos, browse his photos)
+7) DatabaseManagment.From -> The user will be able to manage the photos which he has saved (delete photos, mass/individual ability to select photos, browse his photos)
+Button1 (show more) -> The next 8 photos will be displayed
+Label1 to Label8 -> The Photos will be displayed here
+Button3 (Edit Image) -> edits one of the selected images
+Button4 (View image details) -> sees the meta-data of this image
 
 ****Add extra new forms where it is needed
 You can alter these forms as you want
