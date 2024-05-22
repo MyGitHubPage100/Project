@@ -27,7 +27,7 @@ pictures with these meta-data will be displayed
 
 ************** Below are my instructions for the buttons*****************
 
-1) Profile Form -> User can select or create new profile   ****Rename it to "SelectionScreenProfile.Form"****
+1) Profile.Form -> User can select or create new profile   ****Rename it to "SelectionScreenProfile.Form"****
 
 Button1 to Button6 -> Select an existing profile or create a new one
 Button7 -> Background Changer
@@ -36,37 +36,38 @@ Field View1 -> Show Time Clock
 Field View2 -> Show Current Date
 
 
-2) UserData Form -> The user assigns the filters he wishes and has the ability to see/assign his personal identifying information
+2) UserData.Form -> The user assigns the filters he wishes and has the ability to see/assign his personal identifying information
 ***This Form opens when you create your profile
 
 Label1 to label5 -> The user's personal identifying information are displayed
 Label6 to Label9 -> User defined filters are displayed
 
 
-3) Profile1_Gadget Form -> Pre-existing form where the user is a customer and searches for electronic items in existing photos through filters
+3) Profile1_Gadget.Form -> Pre-existing form where the user is a customer and searches for electronic items in existing photos through filters
 
 Label1 -> Word "Filters" 
 Label2 to Label5 -> User defined search-filters will be inserted here
-Label6 to Label3 -> Photos selected by the user appear in labels
-In the "Profile Form" the user has the ability of the following actions:
+Label6 to Label3 -> Photos selected by the user appear in these labels
 
-Button1 (Profile Data) -> sees/assigns his personal data to his profile
+In the "Profile.Form" the user has the ability of the following actions:
+Button1 (UserData Data) -> sees/assigns his personal data to his profile
 Button2 (Upload Button) -> uploads a new photo
 Button3 (Edit Image) -> edits one of the selected images
-Button4 (View image description) -> sees the meta-data of his image
-Button5 (DELETE YOUR PROFILE) -> User's profile will be deleted (The User should insert the Words 'DELETE' in order to confirm his choice)
+Button4 (View image details) -> sees the meta-data of his image
+Button5 (DELETE YOUR PROFILE) -> his profile will be deleted (The User should insert the Words 'DELETE' in order to confirm his choice)
+Button6 (Manage your Photos) -> The DatabaseManagement.Form opens
 
-4) Profile2 form -> User creates a new profile
+4) Profile2.Form -> User creates a new profile
 The Buttons are the same as those of the 'Profile1_Gadget Form' but the filters and meta-data arent inserted. The User will insert his own
 
 
-5) Image Editor Form -> The user assigns the meta-data of the desired photo
+5) Image Editor.Form -> The user inserts the categories of the meta-data
 Label1 to Label4 -> Words “Filter1” to “Filter4”
 Label5 -> Words “Apply Changes”
 Button1 (Save) -> Saves the changes made by the user
 Button2 (Exit) -> Exit form
 
-6) DatabaseManagment From -> The user will be able to manage his Database (delete photos, mass/individual ability to select photos, browse his photos)
+6) DatabaseManagment.From -> The user will be able to manage his Database (delete photos, mass/individual ability to select photos, browse his photos)
 
 7) Add extra new forms where it is needed
 You can alter these forms as you want
