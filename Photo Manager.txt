@@ -21,9 +21,6 @@ Design a program in Java programming language and in desktop IntelliJ environmen
 *Meta-data is the picture's details given by the user
 
 example
-category of meta-data means 
-
-example
 when the user inserts the filters:  red    keyboard
 pictures with these meta-data will be displayed 
 
@@ -44,18 +41,18 @@ Label1 to label5 -> The user's personal identifying information are displayed
 
 3) Profile1_Gadget.Form -> Pre-existing form where the user is a customer and searches for electronic items in existing photos through filters
 Label1 -> Word "Filters" 
-Label2 to Label10 -> User defined search-filters(meta-data) will be inserted here
-Label11-Label20 -> The general categories of the meta-data. *these are just words* dont change 
+Label2 to Label11 -> User defined search-filters(meta-data) will be inserted here
+Label12-Label21 -> The general categories of the meta-data. (Price,Release Date, etc) *these are just words* dont change 
 
 In the "Profile.Form" the user has the ability of the following actions:
 Button1 (UserData) -> *UserData.Form opens*
-Button2 (Upload Button) -> uploads a new photo (when the user inserts a new photo, the program will ask him to insert the meta-data of the photo)
+Button2 (Upload Button) -> uploads a new photo (when the user inserts a new photo, the program will ask him to insert the meta-data of the new photo **he can also insert many photos at the same time but the program will not ask for the meta-data)
 Button3 (DELETE YOUR PROFILE) -> his profile will be deleted (The User should insert the Words 'DELETE' in order to confirm his choice)
 Button4 (Manage your Photos) -> *The DatabaseManagment.Form opens*
 button5 (Search) -> *PhotoDisplay.Form opens*
 
 4) PhotoDisplay.Form -> The photos will be displayed here
-Label1 to Label8 -> Photos selected by the user appear in these labels
+Label1 to Label8 -> Photos related to user's inserted meta-data will appear in these labels
 Button1 (show more) -> The next 8 photos will be displayed
 
 5) Profile2.Form -> User creates a new profile
@@ -64,8 +61,9 @@ The Buttons are the same as those of the 'Profile1_Gadget Form' but the filters 
 6) DatabaseManagment.From -> The user will be able to manage the photos which he has saved (delete photos, mass/individual ability to select photos, browse his photos)
 Button1 (show more) -> The next 8 photos will be displayed
 Label1 to Label8 -> The Photos will be displayed here
+Button2 (Scrap Photo) -> Deletes the selected photo or Photos
 Button3 (Edit Photo Details) -> The user can edit the meta-data of the selected image
-Button4 (View image details) -> The user will be able to view the meta-data of this image without changing it
+Button4 (View Photo details) -> The user will be able to view the meta-data of this image without changing it
 
 ****Add extra new forms where it is needed
 You can alter these forms as you want
