@@ -2,23 +2,29 @@
 
 <<Goals of the project>>
 Design a program in Java programming language and in desktop IntelliJ environment that will perform the following:
-* The User will be able to select an existing profile or create his own new profile
-* The program will allow the users to create groups of management data about his photos so that Photo Manager becomes a personalized tool (each user will have his owm 'database' for saving photos and will be able to create groups in order to categorize his pictures)
-* It will allow the user to design search filters to locate and view photos related to meta-data,filters that he inserted 
-* It will allow the user to make mass/individual entry of meta-data on selected photos
-* It will allow the user to browse photos (a 'default' pic will be displayed before the user inserts any data on the filters and he will be able to browse all the photos. Also, when the user's inserted data on filters doesnt match with any picture's meta-data then a 'no result found' pic will be displayed on the display area)
+* The User will be able to select an existing profile or create his own new profile (he will enter his code and username. This information will be stored on a xml or Json file)
+* The program will allow the users to create groups of management data about his photos so that Photo Manager becomes a personalized tool (each user will have his owm 'database' for saving photos and he will be able to manage his photos {example select multiple photos,de-select multiple photo, mass/individual deleting of pictures)
+* It will allow the user to insert search filters to locate and view photos related to meta-data that he has inserted 
+* It will allow the user to make entry of meta-data on selected photos
+* It will allow the user to browse photos (a 'default' pic will be displayed before the user inserts any data on the filters. Also, when the user's inserted data on filters doesnt match with any picture's meta-data then a 'no result found' picture will be displayed on the display area)
 
 **NOTES
 **The text inside the () is my comments
 **There will be 6 databases, one for each user
 **Each database should be a xml or Json file
-**No extra libraries which are outdated and not provided by IntelliJ
+**Try to limit the use of libraries that need to be downloaded and inserted manually 
 **No FxJava libraries
-
-************** Below are my instructions for the buttons
-
 *The Program will accept only 6 profiles in total
-*Dont forget to improve the GUI a little bit
+*Dont forget to improve the GUI
+
+**Meta-data is the picture's details given by the user
+
+example
+when the user inserts the filters:  red    keyboard
+pictures with these meta-data will be displayed 
+
+
+************** Below are my instructions for the buttons*****************
 
 1) Profile Form -> User can select or create new profile   ****Rename it to "SelectionScreenProfile.Form"****
 
@@ -60,5 +66,7 @@ Label5 -> Words “Apply Changes”
 Button1 (Save) -> Saves the changes made by the user
 Button2 (Exit) -> Exit form
 
-6) Add extra new forms where it is needed
+6) DatabaseManagment From -> The user will be able to manage his Database (delete photos, mass/individual select photos, browse his photos)
+
+7) Add extra new forms where it is needed
 You can alter these forms as you want
