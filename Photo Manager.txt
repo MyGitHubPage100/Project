@@ -60,7 +60,6 @@ Button1 (show more) -> The next 8 photos will be displayed
 Label1 to Label8 -> The Photos will be displayed here
 Button2 (Scrap Photo) -> Deletes the selected photo or Photos
 Button3 (Edit Photo Details) -> The user can edit the meta-data of the selected image
-Button4 (View Photo details) -> The user will be able to view the meta-data of this image without changing it
-
+Button4 (Close) -> Exit Form
 ****Add extra new forms where it is needed
 You can alter these forms as you want
