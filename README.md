@@ -1,1 +1,1 @@
-Read the PhotoManager.txt :)
+Read the PhotoManager.txt
