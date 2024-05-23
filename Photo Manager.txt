@@ -67,7 +67,7 @@ Button4 (Close) -> Exit Form *DatabaseManagment.From closes*
 
 6) FilterEditor.Form -> The User will change his profile's general category of Filters (General meta-data)
 label1 -> Word "Apply Changes"
-label2 to label9 -> Words Filter 
+label2 to label9 -> Words "Filters" 
 TextField1 to TextField8 -> Words Filter 
 Button1 (Save) -> The changes will be applied
 Button2 (Exit) -> The User will exit from this form *FilterEditor.Form closes*
