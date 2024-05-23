@@ -26,7 +26,7 @@ pictures with these meta-data will be displayed
 
 ************** Below are my instructions for the buttons*****************
 
-1)SelectionScreenProfile.Form -> User can select or create new profile
+1) SelectionScreenProfile.Form -> User can select or create new profile
 Button1 to Button6 -> Select an existing profile or create a new one
 Button7 (Background Swap)-> Background Changer
 *idea* a button under every profile which it will delete your profile -> Resets your Profile
