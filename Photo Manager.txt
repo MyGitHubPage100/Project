@@ -41,7 +41,7 @@ Label1 to label5 -> The user's personal identifying information are displayed
 
 3) Profile1_Gadget.Form -> Pre-existing form where the user is a customer and searches for electronic items in existing photos through filters
 Label1 -> Word "Filters" 
-TextFieldl to TextField10 -> User defined search-filters(meta-data) will be inserted here
+TextFieldl to TextField8 -> User defined search-filters(meta-data) will be inserted here
 Label2 to Label9 -> The general categories of his filters (General meta-data)
 
 In the "Profile1_Gadget.Form" the user has the ability of the following actions:
