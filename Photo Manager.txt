@@ -15,7 +15,6 @@ Design a program in Java programming language and in desktop IntelliJ environmen
 **Each database will contain only the paths of the photos and the meta-data of the photos
 **The Program will accept only 6 profiles in total
 
-*Try to limit the use of libraries that need to be downloaded and inserted manually 
 *No FxJava libraries
 *Dont forget to improve the GUI
 *Meta-data is the picture's details given by the user
