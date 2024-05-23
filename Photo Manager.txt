@@ -37,7 +37,8 @@ Field View2 -> Show Current Date
 **This Form opens when you create your profile
 
 Button1 (Save) -> Saves the user informations and exits this form
-Label1 to label5 -> The user's personal identifying information are displayed
+Label1 to label5 -> Words 'categories of personal identifying information'
+TextField1 to TextField5 -> The user will insert his personal identifying information
 
 3) Profile1_Gadget.Form -> Pre-existing form where the user is a customer and searches for electronic items in existing photos through filters
 Label1 -> Word "Filters" 
