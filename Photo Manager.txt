@@ -60,7 +60,7 @@ The Buttons are the same as those of the 'Profile1_Gadget Form' but the filters 
 
 5) DatabaseManagment.From -> The user will be able to manage the photos which he has saved (delete photos, mass/individual ability to select photos, browse his photos)
 Button1 (show more) -> The next 8 photos will be displayed
-Label1 to Label8 -> The Photos will be displayed here
+Label1 to Label0 -> The Photos will be displayed here
 Button2 (Scrap Photo) -> Deletes the selected photo or Photos
 Button3 (Edit Photo Details) -> The user can edit the meta-data of the selected image
 Button4 (Close) -> Exit Form *DatabaseManagment.From closes*
