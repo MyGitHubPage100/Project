@@ -62,7 +62,7 @@ Button1 (show more) -> The next 8 photos will be displayed
 Label1 to Label8 -> The Photos will be displayed here
 Button2 (Scrap Photo) -> Deletes the selected photo or Photos
 Button3 (Edit Photo Details) -> The user can edit the meta-data of the selected image
-Button4 (Close) -> Exit Form
+Button4 (Close) -> Exit Form *DatabaseManagment.From closes*
 
 6) FilterEditor.Form -> The User will change his profile's general category of Filters (General meta-data)
 label1 -> Word "Apply Changes"
