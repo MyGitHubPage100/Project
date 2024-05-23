@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Database3>
+
+    <General_MetaData>
+        <Filter_Category1>Category of Filter1</Filter_Category1>
+        <Filter_Category2>Category of Filter2</Filter_Category2>
+        <Filter_Category3>Category of Filter3</Filter_Category3>
+        <Filter_Category4>Category of Filter4</Filter_Category4>
+    </General_MetaData>
+
+    <Photos>
+        <Photo>
+            <id>1</id>
+            <Path>src/PhotoFolder/Photo1.jpg</Path>
+            <MetaData1>Grey</MetaData1>
+            <MetaData2>Keyboard</MetaData2>
+            <MetaData3>Razer</MetaData3>
+            <MetaData4>120€</MetaData4>
+        </Photo>
+
+        <Photo>
+            <id>2</id>
+            <Path>src/PhotoFolder/Photo2.jpg</Path>
+            <MetaData1>meta data 1</MetaData1>
+            <MetaData2>meta data 2</MetaData2>
+            <MetaData3>meta data 3</MetaData3>
+            <MetaData4>meta data 4</MetaData4>
+        </Photo>
+    </Photos>
+
+</Database3>

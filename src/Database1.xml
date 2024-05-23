@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Database1>
+
+  <General_MetaData>
+    <Filter_Category1>Color</Filter_Category1>
+    <Filter_Category2>Type of Device</Filter_Category2>
+    <Filter_Category3>Manufacturer </Filter_Category3>
+    <Filter_Category4>Price</Filter_Category4>
+  </General_MetaData>
+
+  <Photos>
+    <Photo>
+      <id>1</id>
+      <Path>src/PhotoFolder/KeyBoard.jpg</Path>
+      <MetaData1>Grey</MetaData1>
+      <MetaData2>Keyboard</MetaData2>
+      <MetaData3>Razer</MetaData3>
+      <MetaData4>120€</MetaData4>
+    </Photo>
+
+    <Photo>
+      <id>2</id>
+      <Path>src/PhotoFolder/Photo2.jpg</Path>
+      <MetaData1>meta data 1</MetaData1>
+      <MetaData2>meta data 2</MetaData2>
+      <MetaData3>meta data 3</MetaData3>
+      <MetaData4>meta data 4</MetaData4>
+    </Photo>
+  </Photos>
+
+</Database1>
