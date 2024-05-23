@@ -42,15 +42,17 @@ Label1 to label5 -> The user's personal identifying information are displayed
 3) Profile1_Gadget.Form -> Pre-existing form where the user is a customer and searches for electronic items in existing photos through filters
 Label1 -> Word "Filters" 
 TextFieldl to TextField10 -> User defined search-filters(meta-data) will be inserted here
-Label2-Label9 -> The general categories of the meta-data. (Price,Release Date, etc) *these are just words* dont change 
+Label2 to Label9 -> The general categories of his filters (General meta-data)
 
 In the "Profile1_Gadget.Form" the user has the ability of the following actions:
 Button1 (UserData) -> *UserData.Form opens*
 Button2 (Upload Button) -> uploads a new photo (when the user inserts a new photo, the program will ask him to insert the meta-data of the new photo **he can also insert many photos at the same time but the program will not ask for the meta-data)
 Button3 (DELETE YOUR PROFILE) -> his profile will be deleted (The User should insert the Words 'DELETE' in order to confirm his choice)
 Button4 (Search) -> *DatabaseManagment.From opens* (Displays only photos which match with the meta-data inserted by the user) 
-Button5 (Browse all Photos) -> *DatabaseManagment.From opens* (all photos will be displayed)
-Button6 (Sign out) -> *this form closes* *Profile.Form opens*
+Button5 (Browse all Photos) -> *DatabaseManagment.From opens* (all his saved photos will be displayed)
+Button6 (Change your Filters) -> *FilterEditor.Form opens* (The User will change his profile's general category of Filters (General meta-data))
+Button7 (Sign out) -> *this form closes* *Profile.Form opens*
+Button8 (Background Changer) -> The Background will change
 
 4) Profile2.Form -> User creates a new profile
 The Buttons are the same as those of the 'Profile1_Gadget Form' but the filters and meta-data arent inserted. The User will insert his own meta-data
@@ -61,6 +63,13 @@ Label1 to Label8 -> The Photos will be displayed here
 Button2 (Scrap Photo) -> Deletes the selected photo or Photos
 Button3 (Edit Photo Details) -> The user can edit the meta-data of the selected image
 Button4 (Close) -> Exit Form
+
+6) FilterEditor.Form -> The User will change his profile's general category of Filters (General meta-data)
+label1 -> Word "Apply Changes"
+label2 to label9 -> Words Filter 
+TextField1 to TextField8 -> Words Filter 
+Button1 (Save) -> The changes will be applied
+Button2 (Exit) -> The User will exit from this form *FilterEditor.Form closes*
 
 ****Add extra new forms where it is needed
 You can alter these forms as you want
