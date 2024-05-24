@@ -2,7 +2,7 @@
 
 <<Goals of the project>>
 Design a program in Java programming language and in desktop IntelliJ environment that will perform the following:
-* The User will be able to select an existing profile or create his own new profile (he will enter his code and username. This information will be stored on a xml or Json file)
+* The User will be able to select an existing profile or create his own new profile (he will enter his code and username. This information will be stored on a xml file)
 * The program will allow the users to create groups of management data about his photos so that Photo Manager becomes a personalized tool (each user will have his owm 'database' for saving photos and he will be able to manage his photos {example select multiple photos,de-select multiple photo, mass/individual deleting of pictures)
 * It will allow the user to insert search filters to locate and view photos related to meta-data that he has inserted 
 * It will allow the user to make entry of meta-data on selected photos
@@ -11,7 +11,7 @@ Design a program in Java programming language and in desktop IntelliJ environmen
 **NOTES
 **The text inside the () is my comments
 **There will be 6 databases, one for each user
-**Each database must be a xml or Json file
+**Each database must be a xml file
 **Each database will contain only the paths of the photos and the meta-data of the photos
 **The Program will accept only 6 profiles in total
 
