@@ -47,7 +47,7 @@ Label2 to Label9 -> The general categories of his filters (General meta-data)
 
 In the "Profile1_Gadget.Form" the user has the ability of the following actions:
 Button1 (UserData) -> *UserData.Form opens*
-Button2 (Upload Button) -> uploads a new photo (when the user inserts a new photo, the program will ask him to insert the meta-data of the new photo **he can also insert many photos at the same time but the program will not ask for the meta-data)
+Button2 (Upload Photo) -> uploads a new photo (when the user inserts a new photo, the program will ask him to insert the meta-data of the new photo **he can also insert many photos at the same time but the program will not ask for the meta-data)
 Button3 (DELETE YOUR PROFILE) -> his profile will be deleted (The User should insert the Words 'DELETE' in order to confirm his choice)
 Button4 (Search) -> *DatabaseManagment.From opens* (Displays only photos which match with the meta-data inserted by the user) 
 Button5 (Browse all Photos) -> *DatabaseManagment.From opens* (all his saved photos will be displayed)
