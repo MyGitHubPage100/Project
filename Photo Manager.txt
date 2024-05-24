@@ -12,7 +12,7 @@ Design a program in Java programming language and in desktop IntelliJ environmen
 **The text inside the () is my comments
 **There will be 6 databases, one for each user
 **Each database must be a xml file
-**Each database will contain only the paths of the photos and the meta-data of the photos
+**Each database will contain only the path of each photo and the meta-data of the photo
 **The Program will accept only 6 profiles in total
 
 *No FxJava libraries
