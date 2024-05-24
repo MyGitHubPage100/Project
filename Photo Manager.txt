@@ -50,7 +50,7 @@ Button1 (UserData) -> *UserData.Form opens*
 Button2 (Upload Photo) -> uploads a new photo (when the user inserts a new photo, the program will ask him to insert the meta-data of the new photo **he can also insert many photos at the same time but the program will not ask for the meta-data)
 Button3 (DELETE YOUR PROFILE) -> his profile will be deleted (The User should insert the Words 'DELETE' in order to confirm his choice)
 Button4 (Search) -> *DatabaseManagment.From opens* (Displays only photos which match with the meta-data inserted by the user) 
-Button5 (Browse all Photos) -> *DatabaseManagment.From opens* (all his saved photos will be displayed)
+Button5 (Browse all Photos) -> *DatabaseManagment.From opens* (all his photos from the Database.xml will be displayed) (It will be like completeing a search without filters)
 Button6 (Change your Filters) -> *FilterEditor.Form opens* (The User will change his profile's general category of Filters (General meta-data))
 Button7 (Sign out) -> *this form closes* *Profile.Form opens*
 Button8 (Background Changer) -> The Background will change
