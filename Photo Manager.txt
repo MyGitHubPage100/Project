@@ -72,5 +72,14 @@ TextField1 to TextField8 -> Words Filter
 Button1 (Save) -> The changes will be applied
 Button2 (Exit) -> The User will exit from this form *FilterEditor.Form closes*
 
+7) PhotoUpload.form -> The user will be able to upload his photos
+label1 ->
+label2 ->
+label3 to label10 ->
+Button1 (Save) ->
+Button2 (Exit) ->
+
+
+
 ****Add extra new forms where it is needed
 You can alter these forms as you want
